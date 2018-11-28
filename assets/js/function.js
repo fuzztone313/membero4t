@@ -1,0 +1,3 @@
+$('#emojiarea').emojioneArea({
+   pickerPosition: "bottom"
+})

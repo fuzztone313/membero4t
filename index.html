@@ -1,0 +1,1800 @@
+<!-- layout.html -->
+<!DOCTYPE html>
+<!--[if lt IE 7]>      
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> 
+<![endif]-->
+<!--[if IE 7]>         
+<html class="no-js lt-ie9 lt-ie8" lang=""> 
+<![endif]-->
+<!--[if IE 8]>         
+<html class="no-js lt-ie9" lang=""> 
+<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Member Area</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="./assets/img/favicon/fav.ico">
+	<link rel="stylesheet" href="./assets/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./assets/css/jquery.circliful.css">
+	<link rel="stylesheet" href="./assets/css/emojionearea.min.css">
+	<link rel="stylesheet" href="./assets/css/jquery.fileupload.css">
+	<link href="./assets/css/style.min.css" rel="stylesheet">
+
+	<script src="./assets/js/jquery-3.2.1.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="//cdn.ckeditor.com/4.10.0/full/ckeditor.js"></script>
+	<script "type=text/html" src="./assets/js/vendor.js"></script>
+	<script src="./assets/js/custom.js"></script>
+	<script src="./assets/js/emojionearea.min.js"></script>	
+	<script src="./assets/js/function.js"></script>
+	<!-- <script src="./assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script> -->
+</head>
+
+<body>
+	<!--[if lt IE 8]>
+			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+	
+
+  <div class="wrapper">
+    <!-- Sidebar Holder -->
+     <nav id="sidebar">
+   <div class="sidebar-header">
+     <figure class="sidebar-logo">
+        <img src="./assets/img/logo-bar.png" alt="" class="img-fluid sidebar-img-logo">
+     </figure>
+   </div>
+   <div class="side-profile-box">
+      <div class="side-avatar-box">
+         <img src="./assets/img/1d.png" alt="" class="img-fluid img-ava">
+         <div class="online-stat"></div>
+      </div>
+      <div class="side-username">Norman Ramadhan</div>
+      <div class="side-status-box">
+         <div class="side-stat">USER</div>
+         <div class="verf-box">
+            <img src="./assets/img/reward.png" alt="" class="img-fluid img-verf">
+         </div>
+      </div>
+   </div>
+   <div class="fol-stat-box">
+      <div class="fol-stat-unit-box">
+         <div class="fol-stat-unit-1">996</div>
+         <div class="fol-stat-unit-2">Following</div>
+      </div>
+      <div class="fol-stat-unit-box">
+         <div class="fol-stat-unit-1">5.1 K</div>
+         <div class="fol-stat-unit-2">Followers</div>
+      </div>
+      <div class="fol-stat-unit-box">
+         <div class="fol-stat-unit-1">6</div>
+         <div class="fol-stat-unit-2">Post</div>
+      </div>
+   </div>
+   <div class="top-side-notif-box">
+      <div class="ico-notif-item">
+         <a class="notif-link" href="#">
+            <img src="./assets/img/friend+notif.png" alt="" class="img-fluid ico-not">
+         </a>
+         <div class="notif-side-link">2</div>
+      </div>
+      <div class="ico-notif-item">
+         <a class="notif-link" href="#">
+            <img src="./assets/img/2.png" alt="" class="img-fluid ico-not">
+         </a>
+         <div class="notif-side-link">2</div>
+      </div>
+      <div class="ico-notif-item">
+         <a class="notif-link" href="#">
+            <img src="./assets/img/3.png" alt="" class="img-fluid ico-not">
+         </a>
+         <div class="notif-side-link">2</div>
+      </div>
+      <div class="ico-notif-item">
+         <a class="notif-link" href="#">
+            <img src="./assets/img/4.png" alt="" class="img-fluid ico-not">
+         </a>
+         <div class="notif-side-link">2</div>
+      </div>
+   </div>
+   <div class="activity-status-box">
+      <div class="act-stat-item">
+         <div class="act-stat-1">Receive
+            <span class="bold">123.456 USD</span>
+         </div>
+         <div class="act-stat-2">From @Rofiqoh</div>
+      </div>
+      <div class="act-stat-item">
+         <div class="act-stat-1">Last Login</div>
+         <div class="act-stat-2">Dec 12, 2017</div>
+      </div>
+      <div class="act-stat-item">
+         <div class="act-stat-b1">Balance</div>
+         <div class="act-stat-b2">987 USD</div>
+      </div>
+      <div class="act-stat-item">
+         <div class="act-stat-b1">Total Income</div>
+         <div class="act-stat-b2">213456 USD</div>
+      </div>
+      <hr class="hr-aside">
+   </div>
+   <div class="group-box">
+      <div class="gr-title">Group</div>
+      <div class="group-unit-wraper">
+         <div class="group-unit active">
+            <a class="group-link active" href="#">
+               <i class="fa fa-users" aria-hidden="true"></i>
+            </a>
+            <div class="group-notif">2</div>
+            <a href="group-page.html" class="group-name">Republik Trader</a>
+         </div>
+         <div class="group-unit">
+            <a class="group-link" href="#">
+               <i class="fa fa-users" aria-hidden="true"></i>
+            </a>
+            <div class="group-notif">2</div>
+            <a href="group-page.html" class="group-name">Republik Trader</a>
+         </div>
+         <div class="group-unit">
+            <a class="group-link" href="#">
+               <i class="fa fa-users" aria-hidden="true"></i>
+            </a>
+            <div class="group-notif">2</div>
+            <a href="group-page.html" class="group-name">Republik Trader</a>
+         </div>
+      </div>
+      <div class="see-more">
+         <a href="group.html" class="see-link">See More</a>
+      </div>
+      <hr class="hr-aside">
+   </div>
+
+   <ul class="list-unstyled components">      
+      <li class="active">         
+         <a class="side-nav-unit" href="#">
+            <div class="side-nav-item">
+               <span class="s-de-nav-link">Pages</span>
+            </div>
+            <div class="side-nav-ico active">
+               <img src="./assets/img/clicked-page.png" alt="" class="img-fluid img-sn-ico">
+            </div>
+         </a>
+      </li>
+      <li>
+         <a class="side-nav-unit" href="createpage.html">
+            <div class="side-nav-item">
+               <span class="s-de-nav-link">Create Pages</span>
+            </div>
+            <div class="side-nav-ico">
+               <img src="./assets/img/clicked-page.png" alt="" class="img-fluid img-sn-ico">
+            </div>
+         </a>
+      </li>
+      <li>
+         <a class="side-nav-unit" href="forexbroker.html">
+            <div class="side-nav-item">
+               <span class="s-de-nav-link">Forex Broker</span>
+            </div>
+            <div class="side-nav-ico">
+               <img src="./assets/img/clicked-forex broker.png" alt="" class="img-fluid img-sn-ico">
+            </div>
+         </a>
+      </li>
+      <li>
+         <a class="side-nav-unit" href="competition.html">
+            <div class="side-nav-item">
+               <span class="s-de-nav-link">Competition</span>
+            </div>
+            <div class="side-nav-ico">
+               <img src="./assets/img/clicked-competition.png" alt="" class="img-fluid img-sn-ico">
+            </div>
+         </a>
+      </li>
+      <li>
+         <a class="side-nav-unit" href="expertadvisor.html">
+            <div class="side-nav-item">
+               <span class="s-de-nav-link">Expert Advisor</span>
+            </div>
+            <div class="side-nav-ico">
+               <img src="./assets/img/clicked-expert advisor.png" alt="" class="img-fluid img-sn-ico">
+            </div>
+         </a>
+      </li>
+      <li>
+         <a class="side-nav-unit" href="saved.html">
+            <div class="side-nav-item">
+               <span class="s-de-nav-link">Saved</span>
+            </div>
+            <div class="side-nav-ico">
+               <img src="./assets/img/clicked-saved.png" alt="" class="img-fluid img-sn-ico">
+            </div>
+         </a>
+      </li>
+      <li>
+         <a class="side-nav-unit" href="ads-manager.html">
+            <div class="side-nav-item">
+               <span class="s-de-nav-link">Ads Manager</span>
+            </div>
+            <div class="side-nav-ico">
+               <img src="./assets/img/clicked-ads-manager.png" alt="" class="img-fluid img-sn-ico">
+            </div>
+         </a>
+      </li>
+      <li>
+         <a class="side-nav-unit" href="promotion.html">
+            <div class="side-nav-item">
+               <span class="s-de-nav-link">Promotion</span>
+            </div>
+            <div class="side-nav-ico">
+               <img src="./assets/img/clicked-promotion.png" alt="" class="img-fluid img-sn-ico">
+            </div>
+         </a>
+      </li>
+      <li>
+         <a class="side-nav-unit" href="recommendation.html">
+            <div class="side-nav-item">
+               <span class="s-de-nav-link">Recommendation</span>
+            </div>
+            <div class="side-nav-ico">
+               <img src="./assets/img/clicked-recomendation.png" alt="" class="img-fluid img-sn-ico">
+            </div>
+         </a>
+      </li>
+      <li>
+         <a class="side-nav-unit" href="webinar.html">
+            <div class="side-nav-item">
+               <span class="s-de-nav-link">Webinar</span>
+            </div>
+            <div class="side-nav-ico">
+               <img src="./assets/img/clicked-webniar.png" alt="" class="img-fluid img-sn-ico">
+            </div>
+         </a>
+      </li>
+      <li>
+         <a class="side-nav-unit" href="event.html">
+            <div class="side-nav-item">
+               <span class="s-de-nav-link">Event</span>
+            </div>
+            <div class="side-nav-ico">
+               <img src="./assets/img/clicked-events.png" alt="" class="img-fluid img-sn-ico">
+            </div>
+         </a>
+      </li>
+      <li>
+         <a class="side-nav-unit" href="gallery-album.html">
+            <div class="side-nav-item">
+               <span class="s-de-nav-link">Gallery</span>
+            </div>
+            <div class="side-nav-ico">
+               <img src="./assets/img/clicked-gallery.png" alt="" class="img-fluid img-sn-ico">
+            </div>
+         </a>
+      </li>
+      <li>
+         <a class="side-nav-unit" href="tutorial.html">
+            <div class="side-nav-item">
+               <span class="s-de-nav-link">Tutorial</span>
+            </div>
+            <div class="side-nav-ico">
+               <img src="./assets/img/clicked-tutorial.png" alt="" class="img-fluid img-sn-ico">
+            </div>
+         </a>
+      </li>
+      <li>
+         <a class="side-nav-unit" href="#">
+            <div class="side-nav-item">
+               <span class="s-de-nav-link">Shop</span>
+            </div>
+            <div class="side-nav-ico">
+               <img src="./assets/img/clicked-shop.png" alt="" class="img-fluid img-sn-ico">
+            </div>
+         </a>
+      </li>      
+   </ul>
+   <div class="bot-nav-box">
+      <ul class="ul-bot-nav">
+         <li class="li-bot-nav">
+            <a href="privacy.html" class="bot-nav-link">Privacy</a>
+         </li>
+         <li class="li-bot-nav">
+            <a href="terms.html" class="bot-nav-link">Term &amp; Condition</a>
+         </li>
+         <li class="li-bot-nav">
+            <a href="advertising.html" class="bot-nav-link">Advertising</a>
+         </li>
+      </ul>
+      <div class="bot-copy">Traderstation &copy; 2017</div>
+   </div>
+</nav>
+
+  
+    <!-- Page Content Holder -->
+    <div id="content">
+  
+       <header>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+   
+         <button type="button" id="sidebarCollapse" class="navbar-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+         </button>
+         <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-user-circle" aria-hidden="true"></i>
+         </button>
+   
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav nav-ma">
+               <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="transactional.html">Transactional History</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="financial.html">Financial Operation</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Meta Data Trading</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Change Password</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">User Information</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#" data-toggle="modal" data-target="#searchModal">
+                     <i class="fa fa-search" aria-hidden="true"></i>
+                  </a>                  
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                     aria-expanded="false">
+                     <figure class="nav-ava-wraper">
+                        <img src="./assets/img/pp.png" alt="" class="img-nav img-fluid">
+                     </figure>
+                  </a>
+                  <div class="dropdown-menu dm-profile" aria-labelledby="navbarDropdown">
+                     <a class="dropdown-item dm-nav-ico" href="profile.html">Profile</a>
+                     <a class="dropdown-item dm-nav-ico" href="shop.html">Shop</a>
+                     <a class="dropdown-item dm-nav-ico" href="competition.html">Competition</a>
+                     <a class="dropdown-item dm-nav-ico" href="note.html">Note</a>
+                     <a class="dropdown-item dm-nav-ico" href="#">Sign Out</a>
+                  </div>
+               </li>         
+               <li class="nav-item dropdown">
+                  <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     <figure class="nav-ava-ico">
+                        <img src="./assets/img/pesan-btn.png" alt="" class="img-nav-ico img-fluid">
+                        <span class="notif-num">3</span>
+                     </figure>
+                  </a>
+                  <div class="dropdown-menu dm-message" aria-labelledby="navbarDropdown">
+                     <a class="dropdown-item dm-nav-ico" href="#">You Have 1 Message From John Doe</a>                     
+                     <a class="dropdown-item dm-nav-ico" href="#">You Have 1 Message From John Doe</a>
+                     <a class="dropdown-item dm-nav-ico" href="#">You Have 1 Message From John Doe</a>
+                  </div>
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     <figure class="nav-ava-ico">
+                        <img src="./assets/img/notifikasi-btn.png" alt="" class="img-nav-ico img-fluid">
+                        <span class="notif-num">3</span>
+                     </figure>
+                  </a>
+                  <div class="dropdown-menu dm-notif" aria-labelledby="navbarDropdown">
+                     <a class="dropdown-item dm-nav-ico" href="notification.html">You Invited To Group Republik Trader</a>
+                     <a class="dropdown-item dm-nav-ico" href="notification.html">Jane Doe Commented on your post</a>
+                     <a class="dropdown-item dm-nav-ico" href="notification.html">Jane Doe Like your post</a>
+                  </div>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">
+                     <figure class="nav-ava-ico">
+                        <img src="./assets/img/pengaturan-btn.png" alt="" class="img-nav-ico img-fluid">
+                     </figure>
+                  </a>
+               </li>
+            </ul>            
+         </div>
+      </div>
+   </nav>
+</header>
+      <div class="container-fluid">
+        <div class="body-member-area">
+          <div class="row">
+            <div class="col-lg-6">
+               <div class="timeline-box">
+   <div class="update-box">
+      <ul class="nav nav-pills  nav-fill mb-3" id="update-tab" role="tablist">
+         <li class="nav-item">
+            <a class="nav-link nav-update-item active" id="pills-what-tab" data-toggle="pill" href="#pills-what" role="tab" aria-controls="pills-what"
+               aria-selected="true">What's News With You?</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link nav-update-item" id="pills-article-tab" data-toggle="pill" href="#pills-article" role="tab" aria-controls="pills-article"
+               aria-selected="false">Share Article</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link nav-update-item" id="pills-analysis-tab" data-toggle="pill" href="#pills-analysis" role="tab" aria-controls="pills-analysis"
+               aria-selected="false">Share Analysis</a>
+         </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+         <div class="tab-pane fade show active" id="pills-what" role="tabpanel" aria-labelledby="pills-what-tab">
+            <div class="write-update-box">
+               <form>
+                  <div class="form-group">
+                     <div class="text-area-wraper">
+								<textarea class="form-control textareahome" id="emojiarea" rows="3"></textarea>
+								<div class="img-upl-container">
+									<img id="myImg" class="img-fluid img-upl-ico" src="./assets/img/myphoto.png" alt="your image" />
+								</div>								
+							</div>
+                  </div>
+               </form>
+            </div>
+            <div class="btn-list-update-box">
+               <div class="icon-list-update-box">
+                  <div class="icon-list-item">                     
+                     <div class="img-ico-wraper">
+								<label class="label-img-input" for="file-input">
+									<div class="img-ico-list">
+										<img src="./assets/img/photo-btn.png" alt="" class="img-fluid img-ico">
+										<div class="ico-title">Photo</div>
+									</div>
+								</label>
+								<input id="file-input" type="file" class="img-input" />
+							</div>
+							<div class="img-ico-wraper">
+								<label class="label-video-input" for="file-input">
+									<div class="img-ico-list">
+										<img src="./assets/img/video-btn.png" alt="" class="img-fluid img-ico">
+										<div class="ico-title">Video</div>
+									</div>
+								</label>
+								<input id="file-input-video" type="file" class="video-input" name="file[]" accept="video/*" />
+							</div>					
+                     <div class="img-ico-list">
+                        <img src="./assets/img/tag tradrs-btn.png" alt="" class="img-fluid img-ico">
+                        <div class="ico-title">Tag Traders</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="btn-post-wraper">
+                  <button type="button" class="btn btn-post">Post</button>
+               </div>
+            </div>
+         </div>
+         <div class="tab-pane fade" id="pills-article" role="tabpanel" aria-labelledby="pills-article-tab">
+            <div class="share-article-box">
+               <form>
+                  <div class="form-row mb-3">
+                     <div class="col">
+                        <label class="label-share" for="title">Title</label>
+                        <input type="text" class="form-control" placeholder="Title">
+                     </div>
+                     <div class="col">
+                        <label class="label-share" for="title">Category</label>
+                        <select id="inputState" class="form-control">
+                           <option selected>Economy</option>
+                           <option>All</option>
+                        </select>
+                     </div>
+                  </div>
+                  <div class="form-group">
+                     <textarea name="editor1" id="editor1" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+               </form>
+            </div>
+            <div class="btn-list-update-box">               
+               <div class="btn-post-wraper">
+                  <button type="button" class="btn btn-post">Post</button>
+               </div>
+            </div>
+         </div>
+         <div class="tab-pane fade" id="pills-analysis" role="tabpanel" aria-labelledby="pills-analysis-tab">
+            <div class="share-article-box">
+               <form>
+                  <div class="form-row mb-3">
+                     <div class="col">
+                        <label class="label-share" for="title">Title</label>
+                        <input type="text" class="form-control" placeholder="Title">
+                     </div>
+                     <div class="col">
+                        <label class="label-share" for="title">Category</label>
+                        <select id="inputState" class="form-control">
+                           <option selected>Economy</option>
+                           <option>All</option>
+                        </select>
+                     </div>
+                  </div>
+                  <div class="form-group">
+                     <textarea name="editor2" id="editor2" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+               </form>
+            </div>
+            <div class="btn-list-update-box">               
+               <div class="btn-post-wraper">
+                  <button type="button" class="btn btn-post">Post</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="row">
+      <div class="col-md-12 pr-0 pl-0">
+         <div class="timeline-box">
+            <div class="mid-body-nav">
+               <ul class="nav nav-pills ul-mid-nav nav-fill mb-3" id="mid-nav-tab" role="tablist">
+                  <li class="nav-item li-mid-nav">
+                     <a class="nav-link a-mid-nav active" id="pills-all-tab" data-toggle="pill" href="#pills-all" role="tab" aria-controls="pills-all"
+                        aria-selected="true">All</a>
+                  </li>
+                  <li class="nav-item li-mid-nav">
+                     <a class="nav-link a-mid-nav" id="pills-lt-tab" data-toggle="pill" href="#pills-lt" role="tab" aria-controls="pills-lt" aria-selected="false">Live Trading</a>
+                  </li>
+                  <li class="nav-item li-mid-nav">
+                     <a class="nav-link a-mid-nav" id="pills-prom-tab" data-toggle="pill" href="#pills-prom" role="tab" aria-controls="pills-prom"
+                        aria-selected="false">Promotions</a>
+                  </li>
+                  <li class="nav-item li-mid-nav">
+                     <a class="nav-link a-mid-nav" id="pills-ana-tab" data-toggle="pill" href="#pills-ana" role="tab" aria-controls="pills-ana"
+                        aria-selected="false">Analysis</a>
+                  </li>
+                  <li class="nav-item li-mid-nav">
+                     <a class="nav-link a-mid-nav" id="pills-art-tab" data-toggle="pill" href="#pills-art" role="tab" aria-controls="pills-art"
+                        aria-selected="false">Article</a>
+                  </li>
+                  <li class="nav-item li-mid-nav">
+                     <a class="nav-link a-mid-nav" id="pills-news-tab" data-toggle="pill" href="#pills-news" role="tab" aria-controls="pills-news"
+                        aria-selected="false">News</a>
+                  </li>
+                  <li class="nav-item li-mid-nav">
+                     <a class="nav-link a-mid-nav" id="pills-ce-tab" data-toggle="pill" href="#pills-ce" role="tab" aria-controls="pills-ce" aria-selected="false">Calendar Economic</a>
+                  </li>
+                  <li class="nav-item li-mid-nav">
+                     <a class="nav-link a-mid-nav" id="pills-ev-tab" data-toggle="pill" href="#pills-ev" role="tab" aria-controls="pills-ev" aria-selected="false">Event</a>
+                  </li>
+                  <li class="nav-item li-mid-nav">
+                     <a class="nav-link a-mid-nav" id="pills-br-tab" data-toggle="pill" href="#pills-br" role="tab" aria-controls="pills-br" aria-selected="false">Brokers</a>
+                  </li>
+               </ul>
+               <div class="tab-content" id="pills-tabContent">
+                  <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+                     <div class="tl-content-box">
+                        <div class="tl-content-head">
+                           <div class="tl-ct-flex">
+                              <div class="tl-ct-img">
+                                 <img src="./assets/img/FBS.jpg" alt="" class="img-fluid img-tl-ct">
+                              </div>
+                              <div class="tl-ct-desc">
+                                 <div class="ct-name">FBS Broker</div>
+                                 <div class="ct-fol">Followers 123</div>
+                                 <div class="ct-last-date">3 Hours Ago</div>
+                              </div>
+                           </div>
+                           <div class="type-ct-box-sp">Sponsor</div>
+                        </div>
+                        <div class="tl-content-body">
+                           <div class="tl-ct-body-img">
+                              <img src="./assets/img/fbs-ads.jpg" alt="" class="img-fluid img-tl-ct-bd">
+                           </div>
+                           <div class="tl-ct-action-box">
+                              <div class="num-w">13 Watched</div>
+                              <div class="btn-group btn-group-sm btn-gr-mr" role="group" aria-label="Basic example">
+                                 <button type="button" class="btn btn-action">
+                                    <i class="fa fa-thumbs-o-up act-ico" aria-hidden="true"></i>
+                                 </button>
+                                 <button type="button" class="btn btn-action">13</button>
+                              </div>
+                              <div class="btn-group btn-group-sm btn-gr-mr" role="group" aria-label="Basic example">
+                                 <button type="button" class="btn btn-action">
+                                    <i class="fa fa-thumbs-o-down act-ico" aria-hidden="true"></i>
+                                 </button>
+                                 <button type="button" class="btn btn-action">13</button>
+                              </div>
+                              <div class="btn-group btn-group-sm btn-gr-mr" role="group" aria-label="Basic example">
+                                 <button type="button" class="btn btn-action">
+                                    <i class="fa fa-comments act-ico" aria-hidden="true"></i>
+                                 </button>
+                                 <button type="button" class="btn btn-action">13</button>
+                              </div>
+                              <div class="btn-group btn-group-sm btn-gr-mr" role="group" aria-label="Basic example">
+                                 <button type="button" class="btn btn-action">
+                                    <i class="fa fa-reply act-ico" aria-hidden="true"></i>
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="tl-content-footer">
+                           <a href="#" class="view-com-ct">View All 13 Comments</a>
+                           <form class="form-comment-ct">
+                              <div class="input-group mb-3">
+                                 <div class="input-group-prepend">
+                                    <button class="btn btn-outline-secondary" type="button">
+                                       <i class="fa fa-comments" aria-hidden="true"></i>
+                                    </button>
+                                 </div>
+                                 <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                     <div class="tl-ads-box">
+                        <div class="ads-banner-img-wraper">
+                           <img src="./assets/img/ads-banner.png" alt="" class="img-fluid ads-img">
+                           <div class="close-ads">X</div>
+                        </div>
+                     </div>
+                     <div class="tl-content-box">
+                        <div class="tl-content-head">
+                           <div class="tl-ct-flex">
+                              <div class="tl-ct-img">
+                                 <img src="./assets/img/emily.png" alt="" class="img-fluid img-tl-ct">
+                              </div>
+                              <div class="tl-ct-desc">
+                                 <div class="ct-name">Emily Blunt</div>
+                                 <div class="ct-fol">Followers 123</div>
+                                 <div class="ct-last-date">3 Hours Ago</div>
+                              </div>
+                           </div>
+                           <div class="type-ct-box-art">Article</div>
+                        </div>
+                        <div class="tl-content-body">
+                           <div class="tl-ct-body-img-art">
+                              <div class="tl-ct-body-img-wrap">
+                                 <h5 class="tl-news-title">Lorem ipsum dolor sit amet</h5>
+                                 <img src="./assets/img//sxsw.png" alt="" class="img-fluid img-tl-ct-bd">
+                                 <article>
+                                    <p class="tl-art-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id distinctio corporis perferendis
+                                       beatae doloribus possimus dolorum tenetur cum illo quod, aut odit deserunt voluptas
+                                       inventore sequi voluptate. Voluptatum inventore totam expedita, laboriosam fuga quam
+                                       explicabo qui ipsam corporis eius corrupti tempora voluptas excepturi quo nam autem
+                                       dolorem. Commodi, reiciendis debitis!</p>
+                                 </article>
+                              </div>
+                           </div>
+                           <div class="tl-ct-action-box">
+                              <div class="num-w">13 Watched</div>
+                              <div class="btn-group btn-group-sm btn-gr-mr" role="group" aria-label="Basic example">
+                                 <button type="button" class="btn btn-action">
+                                    <i class="fa fa-thumbs-o-up act-ico" aria-hidden="true"></i>
+                                 </button>
+                                 <button type="button" class="btn btn-action">13</button>
+                              </div>
+                              <div class="btn-group btn-group-sm btn-gr-mr" role="group" aria-label="Basic example">
+                                 <button type="button" class="btn btn-action">
+                                    <i class="fa fa-thumbs-o-down act-ico" aria-hidden="true"></i>
+                                 </button>
+                                 <button type="button" class="btn btn-action">13</button>
+                              </div>
+                              <div class="btn-group btn-group-sm btn-gr-mr" role="group" aria-label="Basic example">
+                                 <button type="button" class="btn btn-action">
+                                    <i class="fa fa-comments act-ico" aria-hidden="true"></i>
+                                 </button>
+                                 <button type="button" class="btn btn-action">13</button>
+                              </div>
+                              <div class="btn-group btn-group-sm btn-gr-mr" role="group" aria-label="Basic example">
+                                 <button type="button" class="btn btn-action">
+                                    <i class="fa fa-reply act-ico" aria-hidden="true"></i>
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="tl-content-footer">
+                           <a href="#" class="view-com-ct">Hide All 13 Comments</a>
+                           <div class="commentator-wraper">
+                              <div class="commentator-box">
+                                 <div class="commentator-flex">
+                                    <div class="cmt-img">
+                                       <img src="./assets/img/pp.png" alt="" class="img-fluid img-cmt">
+                                    </div>
+                                    <div class="cmt-mess">
+                                       <div class="cmt-name">Norman Ramadhan</div>
+                                       <p class="p-cmt-mess">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, nam.</p>
+                                       <div class="cmt-date">12 Oct</div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <hr class="hr-cmt">
+                           <div class="commentator-wraper">
+                              <div class="commentator-box">
+                                 <div class="commentator-flex">
+                                    <div class="cmt-img">
+                                       <img src="./assets/img/emily.png" alt="" class="img-fluid img-cmt">
+                                    </div>
+                                    <div class="cmt-mess">
+                                       <div class="cmt-name">Emily Blunt</div>
+                                       <p class="p-cmt-mess">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, nam.</p>
+                                       <div class="cmt-date">12 Oct</div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <hr class="hr-cmt">
+                           <div class="commentator-wraper">
+                              <div class="commentator-box">
+                                 <div class="commentator-flex">
+                                    <div class="cmt-img">
+                                       <img src="./assets/img/pp.png" alt="" class="img-fluid img-cmt">
+                                    </div>
+                                    <div class="cmt-mess">
+                                       <div class="cmt-name">Norman Ramadhan</div>
+                                       <p class="p-cmt-mess">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, nam.</p>
+                                       <div class="cmt-date">12 Oct</div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <form class="form-comment-ct">
+                              <div class="input-group mb-3">
+                                 <div class="input-group-prepend">
+                                    <button class="btn btn-outline-secondary" type="button">
+                                       <i class="fa fa-comments" aria-hidden="true"></i>
+                                    </button>
+                                 </div>
+                                 <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                     <div class="tl-content-box">
+                        <div class="tl-content-head">
+                           <div class="tl-ct-flex">
+                              <div class="tl-ct-img">
+                                 <img src="./assets/img/doona.png" alt="" class="img-fluid img-tl-ct">
+                              </div>
+                              <div class="tl-ct-desc">
+                                 <div class="ct-name">Doona Bae</div>
+                                 <div class="ct-fol">Followers 123</div>
+                                 <div class="ct-last-date">3 Hours Ago</div>
+                              </div>
+                           </div>
+                           <div class="type-ct-box-st">Status</div>
+                        </div>
+                        <div class="tl-content-body">
+                           <div class="tl-ct-body-stat">
+                              <p class="stat-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, velit?</p>
+                           </div>
+                           <div class="tl-ct-action-box">
+                              <div class="num-w">13 Watched</div>
+                              <div class="btn-group btn-group-sm btn-gr-mr" role="group" aria-label="Basic example">
+                                 <button type="button" class="btn btn-action">
+                                    <i class="fa fa-thumbs-o-up act-ico" aria-hidden="true"></i>
+                                 </button>
+                                 <button type="button" class="btn btn-action">13</button>
+                              </div>
+                              <div class="btn-group btn-group-sm btn-gr-mr" role="group" aria-label="Basic example">
+                                 <button type="button" class="btn btn-action">
+                                    <i class="fa fa-thumbs-o-down act-ico" aria-hidden="true"></i>
+                                 </button>
+                                 <button type="button" class="btn btn-action">13</button>
+                              </div>
+                              <div class="btn-group btn-group-sm btn-gr-mr" role="group" aria-label="Basic example">
+                                 <button type="button" class="btn btn-action">
+                                    <i class="fa fa-comments act-ico" aria-hidden="true"></i>
+                                 </button>
+                                 <button type="button" class="btn btn-action">13</button>
+                              </div>
+                              <div class="btn-group btn-group-sm btn-gr-mr" role="group" aria-label="Basic example">
+                                 <button type="button" class="btn btn-action">
+                                    <i class="fa fa-reply act-ico" aria-hidden="true"></i>
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="tl-content-footer">
+                           <a href="#" class="view-com-ct">View All 13 Comments</a>
+                           <form class="form-comment-ct">
+                              <div class="input-group mb-3">
+                                 <div class="input-group-prepend">
+                                    <button class="btn btn-outline-secondary" type="button">
+                                       <i class="fa fa-comments" aria-hidden="true"></i>
+                                    </button>
+                                 </div>
+                                 <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                     <div class="tl-ads-box">
+                        <div class="ads-banner-img-wraper">
+                           <img src="./assets/img/ads-banner.png" alt="" class="img-fluid ads-img">
+                           <div class="close-ads">X</div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="tab-pane fade" id="pills-lt" role="tabpanel" aria-labelledby="pills-lt-tab">...</div>
+                  <div class="tab-pane fade" id="pills-prom" role="tabpanel" aria-labelledby="pills-prom-tab">
+                     <div class="tl-content-box">
+                        <div class="tl-content-head">
+                           <div class="tl-ct-flex">
+                              <div class="tl-ct-img">
+                                 <img src="./assets/img/FBS.jpg" alt="" class="img-fluid img-tl-ct">
+                              </div>
+                              <div class="tl-ct-desc">
+                                 <div class="ct-name">FBS Broker</div>
+                                 <div class="ct-fol">Followers 123</div>
+                                 <div class="ct-last-date">3 Hours Ago</div>
+                              </div>
+                           </div>
+                           <div class="type-ct-box-sp">Sponsor</div>
+                        </div>
+
+                        <div class="tl-content-body">
+                           <div class="tl-ct-body-img">
+                              <img src="./assets/img/fbs-ads.jpg" alt="" class="img-fluid img-tl-ct-bd">
+                           </div>
+                           <div class="tl-ct-action-box">
+                              <div class="num-w">13 Watched</div>
+                              <div class="btn-group btn-group-sm btn-gr-mr" role="group" aria-label="Basic example">
+                                 <button type="button" class="btn btn-action">
+                                    <i class="fa fa-thumbs-o-up act-ico" aria-hidden="true"></i>
+                                 </button>
+                                 <button type="button" class="btn btn-action">13</button>
+                              </div>
+                              <div class="btn-group btn-group-sm btn-gr-mr" role="group" aria-label="Basic example">
+                                 <button type="button" class="btn btn-action">
+                                    <i class="fa fa-thumbs-o-down act-ico" aria-hidden="true"></i>
+                                 </button>
+                                 <button type="button" class="btn btn-action">13</button>
+                              </div>
+                              <div class="btn-group btn-group-sm btn-gr-mr" role="group" aria-label="Basic example">
+                                 <button type="button" class="btn btn-action">
+                                    <i class="fa fa-comments act-ico" aria-hidden="true"></i>
+                                 </button>
+                                 <button type="button" class="btn btn-action">13</button>
+                              </div>
+                              <div class="btn-group btn-group-sm btn-gr-mr" role="group" aria-label="Basic example">
+                                 <button type="button" class="btn btn-action">
+                                    <i class="fa fa-reply act-ico" aria-hidden="true"></i>
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="tl-content-footer">
+                           <a href="#" class="view-com-ct">View All 13 Comments</a>
+                           <form class="form-comment-ct">
+                              <div class="input-group mb-3">
+                                 <div class="input-group-prepend">
+                                    <button class="btn btn-outline-secondary" type="button">
+                                       <i class="fa fa-comments" aria-hidden="true"></i>
+                                    </button>
+                                 </div>
+                                 <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                     <div class="tl-ads-box">
+                        <div class="ads-banner-img-wraper">
+                           <img src="./assets/img/ads-banner.png" alt="" class="img-fluid ads-img">
+                           <div class="close-ads">X</div>
+                        </div>
+                     </div>
+                     <div class="tl-content-box">
+                        <div class="tl-content-head">
+                           <div class="tl-ct-flex">
+                              <div class="tl-ct-img">
+                                 <img src="./assets/img/FBS.jpg" alt="" class="img-fluid img-tl-ct">
+                              </div>
+                              <div class="tl-ct-desc">
+                                 <div class="ct-name">FBS Broker</div>
+                                 <div class="ct-fol">Followers 123</div>
+                                 <div class="ct-last-date">3 Hours Ago</div>
+                              </div>
+                           </div>
+                           <div class="type-ct-box-sp">Sponsor</div>
+                        </div>
+                        <div class="tl-content-body">
+                           <div class="tl-ct-body-img">
+                              <img src="./assets/img/fbs-ads.jpg" alt="" class="img-fluid img-tl-ct-bd">
+                           </div>
+                           <div class="tl-ct-action-box">
+                              <div class="num-w">13 Watched</div>
+                              <div class="btn-group btn-group-sm btn-gr-mr" role="group" aria-label="Basic example">
+                                 <button type="button" class="btn btn-action">
+                                    <i class="fa fa-thumbs-o-up act-ico" aria-hidden="true"></i>
+                                 </button>
+                                 <button type="button" class="btn btn-action">13</button>
+                              </div>
+                              <div class="btn-group btn-group-sm btn-gr-mr" role="group" aria-label="Basic example">
+                                 <button type="button" class="btn btn-action">
+                                    <i class="fa fa-thumbs-o-down act-ico" aria-hidden="true"></i>
+                                 </button>
+                                 <button type="button" class="btn btn-action">13</button>
+                              </div>
+                              <div class="btn-group btn-group-sm btn-gr-mr" role="group" aria-label="Basic example">
+                                 <button type="button" class="btn btn-action">
+                                    <i class="fa fa-comments act-ico" aria-hidden="true"></i>
+                                 </button>
+                                 <button type="button" class="btn btn-action">13</button>
+                              </div>
+                              <div class="btn-group btn-group-sm btn-gr-mr" role="group" aria-label="Basic example">
+                                 <button type="button" class="btn btn-action">
+                                    <i class="fa fa-reply act-ico" aria-hidden="true"></i>
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="tl-content-footer">
+                           <a href="#" class="view-com-ct">View All 13 Comments</a>
+                           <form class="form-comment-ct">
+                              <div class="input-group mb-3">
+                                 <div class="input-group-prepend">
+                                    <button class="btn btn-outline-secondary" type="button">
+                                       <i class="fa fa-comments" aria-hidden="true"></i>
+                                    </button>
+                                 </div>
+                                 <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                     <div class="tl-ads-box">
+                        <div class="ads-banner-img-wraper">
+                           <img src="./assets/img/ads-banner.png" alt="" class="img-fluid ads-img">
+                           <div class="close-ads">X</div>
+                        </div>
+                     </div>
+                     <div class="tl-content-box">
+                        <div class="tl-content-head">
+                           <div class="tl-ct-flex">
+                              <div class="tl-ct-img">
+                                 <img src="./assets/img/FBS.jpg" alt="" class="img-fluid img-tl-ct">
+                              </div>
+                              <div class="tl-ct-desc">
+                                 <div class="ct-name">FBS Broker</div>
+                                 <div class="ct-fol">Followers 123</div>
+                                 <div class="ct-last-date">3 Hours Ago</div>
+                              </div>
+                           </div>
+                           <div class="type-ct-box-sp">Sponsor</div>
+                        </div>
+                        <div class="tl-content-body">
+                           <div class="tl-ct-body-img">
+                              <img src="./assets/img/fbs-ads.jpg" alt="" class="img-fluid img-tl-ct-bd">
+                           </div>
+                           <div class="tl-ct-action-box">
+                              <div class="num-w">13 Watched</div>
+                              <div class="btn-group btn-group-sm btn-gr-mr" role="group" aria-label="Basic example">
+                                 <button type="button" class="btn btn-action">
+                                    <i class="fa fa-thumbs-o-up act-ico" aria-hidden="true"></i>
+                                 </button>
+                                 <button type="button" class="btn btn-action">13</button>
+                              </div>
+                              <div class="btn-group btn-group-sm btn-gr-mr" role="group" aria-label="Basic example">
+                                 <button type="button" class="btn btn-action">
+                                    <i class="fa fa-thumbs-o-down act-ico" aria-hidden="true"></i>
+                                 </button>
+                                 <button type="button" class="btn btn-action">13</button>
+                              </div>
+                              <div class="btn-group btn-group-sm btn-gr-mr" role="group" aria-label="Basic example">
+                                 <button type="button" class="btn btn-action">
+                                    <i class="fa fa-comments act-ico" aria-hidden="true"></i>
+                                 </button>
+                                 <button type="button" class="btn btn-action">13</button>
+                              </div>
+                              <div class="btn-group btn-group-sm btn-gr-mr" role="group" aria-label="Basic example">
+                                 <button type="button" class="btn btn-action">
+                                    <i class="fa fa-reply act-ico" aria-hidden="true"></i>
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="tl-content-footer">
+                           <a href="#" class="view-com-ct">View All 13 Comments</a>
+                           <form class="form-comment-ct">
+                              <div class="input-group mb-3">
+                                 <div class="input-group-prepend">
+                                    <button class="btn btn-outline-secondary" type="button">
+                                       <i class="fa fa-comments" aria-hidden="true"></i>
+                                    </button>
+                                 </div>
+                                 <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="tab-pane fade" id="pills-ana" role="tabpanel" aria-labelledby="pills-ana-tab">...</div>
+                  <div class="tab-pane fade" id="pills-art" role="tabpanel" aria-labelledby="pills-art-tab">...</div>
+                  <div class="tab-pane fade" id="pills-news" role="tabpanel" aria-labelledby="pills-news-tab">...</div>
+                  <div class="tab-pane fade" id="pills-ce" role="tabpanel" aria-labelledby="pills-ce-tab">...</div>
+                  <div class="tab-pane fade" id="pills-ev" role="tabpanel" aria-labelledby="pills-ev-tab">...</div>
+                  <div class="tab-pane fade" id="pills-br" role="tabpanel" aria-labelledby="pills-br-tab">...</div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<script>
+	CKEDITOR.replace('editor1');
+	CKEDITOR.replace('editor2');
+</script>
+
+            </div>
+            <div class="col-lg-3">
+               <div class="trading-performance-container">
+   <div class="trading-performance-box">
+      <div class="tf-head-box">
+         <h6 class="tf-title">TRADING
+            <span class="tf-col">PERFORMANCE</span>
+         </h6>
+      </div>
+      <div class="tf-body">
+         <div class="tf-acc-wraper">
+            <div class="tf-acc-type">Primary Account</div>
+            <div class="tf-type-acc-wraper">
+               <div class="num-tf-acc">- 312415 [Real Account]</div>
+               <ul class="ul-tf">
+                  <li class="li-tf">
+                     <div class="li-tf-item">Copier</div>
+                     <div class="li-tf-item">
+                        <span class="tf-bold">6</span>
+                     </div>
+                  </li>
+                  <li class="li-tf">
+                     <div class="li-tf-item">Reverser</div>
+                     <div class="li-tf-item">
+                        <span class="tf-bold">6</span>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <hr class="hr-tf">
+         <div class="tf-acc-wraper">
+            <div class="tf-acc-type">Other Account</div>
+            <div class="tf-type-acc-wraper">
+               <div class="num-tf-acc">- 312415 [Demo Account]</div>
+               <ul class="ul-tf">
+                  <li class="li-tf">
+                     <div class="li-tf-item">Copier</div>
+                     <div class="li-tf-item">
+                        <span class="tf-bold">6</span>
+                     </div>
+                  </li>
+                  <li class="li-tf">
+                     <div class="li-tf-item">Reverser</div>
+                     <div class="li-tf-item">
+                        <span class="tf-bold">6</span>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+            <div class="tf-type-acc-wraper">
+               <div class="num-tf-acc">- 312415 [Demo Account]</div>
+               <ul class="ul-tf">
+                  <li class="li-tf">
+                     <div class="li-tf-item">Copier</div>
+                     <div class="li-tf-item">
+                        <span class="tf-bold">6</span>
+                     </div>
+                  </li>
+                  <li class="li-tf">
+                     <div class="li-tf-item">Reverser</div>
+                     <div class="li-tf-item">
+                        <span class="tf-bold">6</span>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <div class="tf-type-acc-wraper">
+            <div class="num-tf-acc">- 312415 [Demo Account]</div>
+            <ul class="ul-tf">
+               <li class="li-tf">
+                  <div class="li-tf-item">Copier</div>
+                  <div class="li-tf-item">
+                     <span class="tf-bold">6</span>
+                  </div>
+               </li>
+               <li class="li-tf">
+                  <div class="li-tf-item">Reverser</div>
+                  <div class="li-tf-item">
+                     <span class="tf-bold">6</span>
+                  </div>
+               </li>
+            </ul>
+         </div>
+      </div>
+      <div class="tf-footer">
+         <div class="tf-link-footer-wraper">
+            <a href="#" class="tf-link">See More</a>
+            <a href="add-trading-account.html" class="tf-link">Add More Account</a>
+         </div>
+      </div>
+   </div>
+   <div class="trading-performance-box">
+      <div class="tf-head-box">
+         <h6 class="tf-title">PAMM
+            <span class="tf-col">PERFORMANCE</span>
+         </h6>
+      </div>
+      <div class="tf-body">
+         <div class="tf-acc-wraper">
+            <div class="tf-acc-type">Super Profit</div>
+            <div class="tf-type-acc-wraper">
+               <ul class="ul-tf">
+                  <li class="li-tf">
+                     <div class="li-tf-item">Investor</div>
+                     <div class="li-tf-item">
+                        <span class="tf-bold">6</span>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="tf-footer">
+         <div class="tf-link-footer-wraper">
+            <a href="#" class="tf-link">See More</a>
+            <a href="add-pamm-acc.html" class="tf-link">Add More Account</a>
+         </div>
+      </div>
+   </div>
+   <div class="trading-performance-box">
+      <div class="tf-head-box">
+         <h6 class="tf-title">EXPERT ADIVISOR
+            <span class="tf-col">PERFORMANCE</span>
+         </h6>
+      </div>
+      <div class="tf-body">
+         <div class="tf-acc-wraper">
+            <div class="tf-type-acc-wraper">
+               <ul class="ul-tf">
+                  <li class="li-tf">
+                     <div class="li-tf-item">No Data</div>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="tf-footer">
+         <div class="tf-link-footer-wraper">
+            <a href="add-ea.html" class="tf-link">Add Other Expert</a>
+         </div>
+      </div>
+   </div>
+   <div class="trading-performance-box">
+      <div class="tf-head-box">
+         <h6 class="tf-title">FOLLOW
+            <span class="tf-col">TRADING</span>
+         </h6>
+      </div>
+      <div class="tf-body">
+         <div class="tf-acc-wraper">
+            <div class="tf-acc-type">Copy Trade</div>
+            <div class="tf-type-acc-wraper">
+               <div class="num-tf-acc">- 312415</div>
+               <ul class="ul-tf">
+                  <li class="li-tf">
+                     <div class="li-tf-item">Profit</div>
+                     <div class="li-tf-item">
+                        <span class="tf-bold">123.123 USD</span>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="tf-footer">
+         <div class="tf-link-footer-wraper">
+            <a href="#" class="tf-link">See More</a>
+            <a href="#" class="tf-link">Copy Other Traders</a>
+         </div>
+      </div>
+   </div>
+   <div class="trading-performance-box">
+      <div class="tf-head-box">
+         <h6 class="tf-title">PAMM
+            <span class="tf-col">INVESTMENT</span>
+         </h6>
+      </div>
+      <div class="tf-body">
+         <div class="tf-acc-wraper">
+            <div class="tf-acc-type">Mega Project</div>
+            <div class="tf-type-acc-wraper">
+               <div class="num-tf-acc">- 312415</div>
+               <ul class="ul-tf">
+                  <li class="li-tf">
+                     <div class="li-tf-item">Profit</div>
+                     <div class="li-tf-item">
+                        <span class="tf-bold">123.123 USD</span>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="tf-footer">
+         <div class="tf-link-footer-wraper">
+            <a href="#" class="tf-link">See More</a>
+            <a href="#" class="tf-link">Copy Other Traders</a>
+         </div>
+      </div>
+   </div>
+</div>
+
+            </div>
+            <div class="col-lg-3">
+               <div class="act-feed-container">
+   <div class="act-feed-box">
+      <div class="af-box-head">
+         <h6 class="af-title">ACTIVITY
+            <span class="af-col">FEED</span>
+         </h6>
+      </div>
+      <div class="af-box-body">
+         <div class="af-tab-pane">
+            <ul class="nav nav-pills nav-fill mb-3" id="af-tab" role="tablist">
+               <li class="nav-item">
+                  <a class="nav-link af-nav active" id="pills-af-trad-tab" data-toggle="pill" href="#pills-af-trad" role="tab" aria-controls="pills-af-trad"
+                     aria-selected="true">Traders</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link af-nav" id="pills-af-ae-tab" data-toggle="pill" href="#pills-af-ae" role="tab" aria-controls="pills-af-ae"
+                     aria-selected="false">Expert Advisor</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link af-nav" id="pills-af-gr-tab" data-toggle="pill" href="#pills-af-gr" role="tab" aria-controls="pills-af-gr"
+                     aria-selected="false">Group</a>
+               </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+               <div class="tab-pane fade show active" id="pills-af-trad" role="tabpanel" aria-labelledby="pills-af-trad-tab">
+                  <div class="offer-box">
+                     <div class="offer-flex">
+                        <div class="offer-ico">
+                           <i class="fa fa-info-circle of-ico" aria-hidden="true"></i>
+                        </div>
+                        <div class="offer-desc">
+                           <div class="offer-title">Today's Offer</div>
+                           <p class="p-off-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse at error natus dolorem delectus
+                              cumque deserunt commodi.
+                           </p>
+                        </div>
+                     </div>
+                     <span class="close-offer">x</span>
+                  </div>
+                  <div class="af-user-box">
+                     <div class="af-user-flex">
+                        <div class="af-user-avatar">
+                           <img src="./assets/img/pp.png" alt="" class="img-fluid img-af-ava">
+                           <img src="./assets/img/reward.png" alt="" class="img-fluid af-ico">
+                        </div>
+                        <div class="af-user-act">
+                           <div class="af-user-name">Emporio Ivankov</div>
+                           <div class="af-button-wraper">
+                              <div class="btn-af-co btn-sm">12
+                                 <br>Copiers</div>
+                              <div class="btn-af-re btn-sm">12
+                                 <br>Reverse</div>
+                           </div>
+                           <div class="af-activity">
+                              <div class="af-act-item">Just Closed</div>
+                              <div class="af-act-item">Sell EURUSD
+                                 <span class="af-red">+123.45</span> USD</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="af-time-date">Today at 10:20</div>
+                     <hr>
+                     <div class="af-act-btn">
+                        <div class="af-c-btn-wraper">
+                           <i class="fa fa-thumbs-up af-ico-act active" aria-hidden="true"></i>
+                           <i class="fa fa-thumbs-down af-ico-act" aria-hidden="true"></i>
+                           <i class="fa fa-commenting af-ico-act" aria-hidden="true"></i>
+                           <i class="fa fa-reply af-ico-act" aria-hidden="true"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="af-user-box">
+                     <div class="af-user-flex">
+                        <div class="af-user-avatar">
+                           <img src="./assets/img/pp.png" alt="" class="img-fluid img-af-ava">
+                           <img src="./assets/img/reward.png" alt="" class="img-fluid af-ico">
+                        </div>
+                        <div class="af-user-act">
+                           <div class="af-user-name">Emporio Ivankov</div>
+                           <div class="af-button-wraper">
+                              <div class="btn-af-co btn-sm">12
+                                 <br>Copiers</div>
+                              <div class="btn-af-re btn-sm">12
+                                 <br>Reverse</div>
+                           </div>
+                           <div class="af-activity">
+                              <div class="af-act-item">Just Closed</div>
+                              <div class="af-act-item">Sell EURUSD
+                                 <span class="af-green">+123.45</span> USD</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="af-time-date">Today at 10:20</div>
+                     <hr>
+                     <div class="af-act-btn">
+                        <div class="af-c-btn-wraper">
+                           <i class="fa fa-thumbs-up af-ico-act active" aria-hidden="true"></i>
+                           <i class="fa fa-thumbs-down af-ico-act" aria-hidden="true"></i>
+                           <i class="fa fa-commenting af-ico-act" aria-hidden="true"></i>
+                           <i class="fa fa-reply af-ico-act" aria-hidden="true"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="af-user-box">
+                     <div class="af-user-flex">
+                        <div class="af-user-avatar">
+                           <img src="./assets/img/pp.png" alt="" class="img-fluid img-af-ava">
+                           <img src="./assets/img/reward.png" alt="" class="img-fluid af-ico">
+                        </div>
+                        <div class="af-user-act">
+                           <div class="af-user-name">Emporio Ivankov</div>
+                           <div class="af-button-wraper">
+                              <div class="btn-af-co btn-sm">12
+                                 <br>Copiers</div>
+                              <div class="btn-af-re btn-sm">12
+                                 <br>Reverse</div>
+                           </div>
+                           <div class="af-activity">
+                              <div class="af-act-item">Just Closed</div>
+                              <div class="af-act-item">Sell EURUSD
+                                 <span class="af-red">+123.45</span> USD</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="af-time-date">Today at 10:20</div>
+                     <hr>
+                     <div class="af-act-btn">
+                        <div class="af-c-btn-wraper">
+                           <i class="fa fa-thumbs-up af-ico-act active" aria-hidden="true"></i>
+                           <i class="fa fa-thumbs-down af-ico-act" aria-hidden="true"></i>
+                           <i class="fa fa-commenting af-ico-act" aria-hidden="true"></i>
+                           <i class="fa fa-reply af-ico-act" aria-hidden="true"></i>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="tab-pane fade" id="pills-af-ae" role="tabpanel" aria-labelledby="pills-af-ae-tab">
+                  <div class="offer-box">
+                     <div class="offer-flex">
+                        <div class="offer-ico">
+                           <i class="fa fa-info-circle of-ico" aria-hidden="true"></i>
+                        </div>
+                        <div class="offer-desc">
+                           <div class="offer-title">Today's Offer</div>
+                           <p class="p-off-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse at error natus dolorem delectus
+                              cumque deserunt commodi.
+                           </p>
+                        </div>
+                     </div>
+                     <span class="close-offer">x</span>
+                  </div>
+                  <div class="af-user-box">
+                     <div class="af-user-flex">
+                        <div class="af-user-avatar">
+                           <img src="./assets/img/pp.png" alt="" class="img-fluid img-af-ava">
+                           <img src="./assets/img/reward.png" alt="" class="img-fluid af-ico">
+                        </div>
+                        <div class="af-user-act">
+                           <div class="af-user-name">Emporio Ivankov</div>
+                           <div class="af-button-wraper">
+                              <div class="btn-af-re btn-sm">BUY EA</div>
+                           </div>
+                           <div class="af-activity">
+                              <div class="af-act-item">Just Closed</div>
+                              <div class="af-act-item">Sell EURUSD
+                                 <span class="af-red">+123.45</span> USD</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="af-time-date">Today at 10:20</div>
+                     <hr>
+                     <div class="af-act-btn">
+                        <div class="af-c-btn-wraper">
+                           <i class="fa fa-thumbs-up af-ico-act active" aria-hidden="true"></i>
+                           <i class="fa fa-thumbs-down af-ico-act" aria-hidden="true"></i>
+                           <i class="fa fa-commenting af-ico-act" aria-hidden="true"></i>
+                           <i class="fa fa-reply af-ico-act" aria-hidden="true"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="af-user-box">
+                     <div class="af-user-flex">
+                        <div class="af-user-avatar">
+                           <img src="./assets/img/pp.png" alt="" class="img-fluid img-af-ava">
+                           <img src="./assets/img/reward.png" alt="" class="img-fluid af-ico">
+                        </div>
+                        <div class="af-user-act">
+                           <div class="af-user-name">Emporio Ivankov</div>
+                           <div class="af-button-wraper">
+                              <div class="btn-af-re btn-sm">BUY EA</div>
+                           </div>
+                           <div class="af-activity">
+                              <div class="af-act-item">Just Closed</div>
+                              <div class="af-act-item">Sell EURUSD
+                                 <span class="af-green">+123.45</span> USD</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="af-time-date">Today at 10:20</div>
+                     <hr>
+                     <div class="af-act-btn">
+                        <div class="af-c-btn-wraper">
+                           <i class="fa fa-thumbs-up af-ico-act active" aria-hidden="true"></i>
+                           <i class="fa fa-thumbs-down af-ico-act" aria-hidden="true"></i>
+                           <i class="fa fa-commenting af-ico-act" aria-hidden="true"></i>
+                           <i class="fa fa-reply af-ico-act" aria-hidden="true"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="af-user-box">
+                     <div class="af-user-flex">
+                        <div class="af-user-avatar">
+                           <img src="./assets/img/pp.png" alt="" class="img-fluid img-af-ava">
+                           <img src="./assets/img/reward.png" alt="" class="img-fluid af-ico">
+                        </div>
+                        <div class="af-user-act">
+                           <div class="af-user-name">Emporio Ivankov</div>
+                           <div class="af-button-wraper">
+                              <div class="btn-af-re btn-sm">BUY EA</div>
+                           </div>
+                           <div class="af-activity">
+                              <div class="af-act-item">Just Closed</div>
+                              <div class="af-act-item">Sell EURUSD
+                                 <span class="af-red">+123.45</span> USD</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="af-time-date">Today at 10:20</div>
+                     <hr>
+                     <div class="af-act-btn">
+                        <div class="af-c-btn-wraper">
+                           <i class="fa fa-thumbs-up af-ico-act active" aria-hidden="true"></i>
+                           <i class="fa fa-thumbs-down af-ico-act" aria-hidden="true"></i>
+                           <i class="fa fa-commenting af-ico-act" aria-hidden="true"></i>
+                           <i class="fa fa-reply af-ico-act" aria-hidden="true"></i>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="tab-pane fade" id="pills-af-gr" role="tabpanel" aria-labelledby="pills-af-gr-tab">
+                  <div class="offer-box">
+                     <div class="offer-flex">
+                        <div class="offer-ico">
+                           <i class="fa fa-info-circle of-ico" aria-hidden="true"></i>
+                        </div>
+                        <div class="offer-desc">
+                           <div class="offer-title">Today's Offer</div>
+                           <p class="p-off-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse at error natus dolorem delectus
+                              cumque deserunt commodi.
+                           </p>
+                        </div>
+                     </div>
+                     <span class="close-offer">x</span>
+                  </div>
+                  <div class="af-user-box">
+                     <div class="af-user-flex">
+                        <div class="af-user-avatar">
+                           <img src="./assets/img/pp.png" alt="" class="img-fluid img-af-ava">
+                           <img src="./assets/img/reward.png" alt="" class="img-fluid af-ico">
+                        </div>
+                        <div class="af-user-act">
+                           <div class="af-user-name">Emporio Ivankov</div>
+                           <div class="af-button-wraper">
+                              <div class="btn-af-co btn-sm">Join PAMM</div>
+                           </div>
+                           <div class="af-activity">
+                              <div class="af-act-item">Just Closed</div>
+                              <div class="af-act-item">Sell EURUSD
+                                 <span class="af-red">+123.45</span> USD</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="af-time-date">Today at 10:20</div>
+                     <hr>
+                     <div class="af-act-btn">
+                        <div class="af-c-btn-wraper">
+                           <i class="fa fa-thumbs-up af-ico-act active" aria-hidden="true"></i>
+                           <i class="fa fa-thumbs-down af-ico-act" aria-hidden="true"></i>
+                           <i class="fa fa-commenting af-ico-act" aria-hidden="true"></i>
+                           <i class="fa fa-reply af-ico-act" aria-hidden="true"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="af-user-box">
+                     <div class="af-user-flex">
+                        <div class="af-user-avatar">
+                           <img src="./assets/img/pp.png" alt="" class="img-fluid img-af-ava">
+                           <img src="./assets/img/reward.png" alt="" class="img-fluid af-ico">
+                        </div>
+                        <div class="af-user-act">
+                           <div class="af-user-name">Emporio Ivankov</div>
+                           <div class="af-button-wraper">
+                              <div class="btn-af-co btn-sm">Join PAMM</div>
+                           </div>
+                           <div class="af-activity">
+                              <div class="af-act-item">Just Closed</div>
+                              <div class="af-act-item">Sell EURUSD
+                                 <span class="af-green">+123.45</span> USD</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="af-time-date">Today at 10:20</div>
+                     <hr>
+                     <div class="af-act-btn">
+                        <div class="af-c-btn-wraper">
+                           <i class="fa fa-thumbs-up af-ico-act active" aria-hidden="true"></i>
+                           <i class="fa fa-thumbs-down af-ico-act" aria-hidden="true"></i>
+                           <i class="fa fa-commenting af-ico-act" aria-hidden="true"></i>
+                           <i class="fa fa-reply af-ico-act" aria-hidden="true"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="af-user-box">
+                     <div class="af-user-flex">
+                        <div class="af-user-avatar">
+                           <img src="./assets/img/pp.png" alt="" class="img-fluid img-af-ava">
+                           <img src="./assets/img/reward.png" alt="" class="img-fluid af-ico">
+                        </div>
+                        <div class="af-user-act">
+                           <div class="af-user-name">Emporio Ivankov</div>
+                           <div class="af-button-wraper">
+                              <div class="btn-af-co btn-sm">Join PAMM</div>
+                           </div>
+                           <div class="af-activity">
+                              <div class="af-act-item">Just Closed</div>
+                              <div class="af-act-item">Sell EURUSD
+                                 <span class="af-red">+123.45</span> USD</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="af-time-date">Today at 10:20</div>
+                     <hr>
+                     <div class="af-act-btn">
+                        <div class="af-c-btn-wraper">
+                           <i class="fa fa-thumbs-up af-ico-act active" aria-hidden="true"></i>
+                           <i class="fa fa-thumbs-down af-ico-act" aria-hidden="true"></i>
+                           <i class="fa fa-commenting af-ico-act" aria-hidden="true"></i>
+                           <i class="fa fa-reply af-ico-act" aria-hidden="true"></i>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="top-trade-box">
+      <div class="top-trader-title">
+         <h6 class="af-title">ACTIVITY
+            <span class="af-col">FEED</span>
+         </h6>
+         <div class="tt-month">This Month</div>
+      </div>
+      <div class="top-trade-body">
+         <div class="top-trade-flex">
+            <div class="top-trade-img">
+               <img src="./assets/img/emily.png" alt="" class="img-fluid img img-tt-ava">
+               <div class="tt-username-flex">
+                  <div class="tt-username--wraper">
+                     <div class="tt-username">Emily Blunt</div>
+                     <div class="tt-fol">12K Followers</div>
+                  </div>
+                  <div class="tt-ver">
+                     <img src="./assets/img/reward.png" alt="" class="img-fluid img-ver">
+                  </div>
+               </div>
+            </div>
+            <div class="top-trade-content">
+               <div class="tt-cr-flex">
+                  <div class="tt-cr-copy">12 Copiers</div>
+                  <div class="tt-cr-reverse">0 Reverse</div>
+               </div>
+               <div class="tt-rd">
+                  <ul class="ul-rd">
+                     <li class="li-rd">
+                        <div class="rd-percent">8.39%</div>
+                        <div class="rd-status">RETURN</div>
+                     </li>
+                     <li class="li-rd">
+                        <div class="rd-percent">4.49%</div>
+                        <div class="rd-status">DRAWDOWN</div>
+                     </li>
+                  </ul>
+               </div>
+               <div class="tt-core-flex">
+                  <div class="tt-core-copy">COPY</div>
+                  <div class="tt-core-reverse">REVERSE</div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="top-trade-body">
+         <div class="top-trade-flex">
+            <div class="top-trade-img">
+               <img src="./assets/img/doona.png" alt="" class="img-fluid img img-tt-ava">
+               <div class="tt-username-flex">
+                  <div class="tt-username--wraper">
+                     <div class="tt-username">Doona Bae</div>
+                     <div class="tt-fol">12K Followers</div>
+                  </div>
+                  <div class="tt-ver">
+                     <img src="./assets/img/reward.png" alt="" class="img-fluid img-ver">
+                  </div>
+               </div>
+            </div>
+            <div class="top-trade-content">
+               <div class="tt-cr-flex">
+                  <div class="tt-cr-copy">12 Copiers</div>
+                  <div class="tt-cr-reverse">0 Reverse</div>
+               </div>
+               <div class="tt-rd">
+                  <ul class="ul-rd">
+                     <li class="li-rd">
+                        <div class="rd-percent">8.39%</div>
+                        <div class="rd-status">RETURN</div>
+                     </li>
+                     <li class="li-rd">
+                        <div class="rd-percent">4.49%</div>
+                        <div class="rd-status">DRAWDOWN</div>
+                     </li>
+                  </ul>
+               </div>
+               <div class="tt-core-flex">
+                  <div class="tt-core-copy">COPY</div>
+                  <div class="tt-core-reverse">REVERSE</div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="top-trade-body">
+         <div class="top-trade-flex">
+            <div class="top-trade-img">
+               <img src="./assets/img/pp.png" alt="" class="img-fluid img img-tt-ava">
+               <div class="tt-username-flex">
+                  <div class="tt-username--wraper">
+                     <div class="tt-username">Steve Roger</div>
+                     <div class="tt-fol">12K Followers</div>
+                  </div>
+                  <div class="tt-ver">
+                     <img src="./assets/img/reward.png" alt="" class="img-fluid img-ver">
+                  </div>
+               </div>
+            </div>
+            <div class="top-trade-content">
+               <div class="tt-cr-flex">
+                  <div class="tt-cr-copy">12 Copiers</div>
+                  <div class="tt-cr-reverse">0 Reverse</div>
+               </div>
+               <div class="tt-rd">
+                  <ul class="ul-rd">
+                     <li class="li-rd">
+                        <div class="rd-percent">8.39%</div>
+                        <div class="rd-status">RETURN</div>
+                     </li>
+                     <li class="li-rd">
+                        <div class="rd-percent">4.49%</div>
+                        <div class="rd-status">DRAWDOWN</div>
+                     </li>
+                  </ul>
+               </div>
+               <div class="tt-core-flex">
+                  <div class="tt-core-copy">COPY</div>
+                  <div class="tt-core-reverse">REVERSE</div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="suggest-trader-box">
+      <div class="st-head-box">
+         <h6 class="af-title">SUGGEST
+            <span class="af-col">TRADERS</span>
+         </h6>
+      </div>
+      <div class="st-trader-body">
+         <div class="st-trade-flex">
+            <div class="st-img">
+               <img src="./assets/img/doona.png" alt="" class="img-fluid img-st">
+            </div>
+            <div class="st-trade-user">
+               <div class="st-name">Doona Bae</div>
+               <div class="st-fol">
+                  <div class="st-fol-num">12K Followers</div>
+                  <div class="st-fol-logo">
+                     <img src="./assets/img/reward.png" alt="" class="img-fluid st-logo">
+                  </div>
+               </div>
+            </div>
+         </div>
+         <button type="button" class="btn btn-st-fol btn-sm">Follow</button>
+      </div>
+      <div class="st-trader-body">
+         <div class="st-trade-flex">
+            <div class="st-img">
+               <img src="./assets/img/pp.png" alt="" class="img-fluid img-st">
+            </div>
+            <div class="st-trade-user">
+               <div class="st-name">Steve Roger</div>
+               <div class="st-fol">
+                  <div class="st-fol-num">12K Followers</div>
+                  <div class="st-fol-logo">
+                     <img src="./assets/img/reward.png" alt="" class="img-fluid st-logo">
+                  </div>
+               </div>
+            </div>
+         </div>
+         <button type="button" class="btn btn-st-fol btn-sm">Follow</button>
+      </div>
+      <div class="st-trader-body">
+         <div class="st-trade-flex">
+            <div class="st-img">
+               <img src="./assets/img/emily.png" alt="" class="img-fluid img-st">
+            </div>
+            <div class="st-trade-user">
+               <div class="st-name">Emily Blunt</div>
+               <div class="st-fol">
+                  <div class="st-fol-num">12K Followers</div>
+                  <div class="st-fol-logo">
+                     <img src="./assets/img/reward.png" alt="" class="img-fluid st-logo">
+                  </div>
+               </div>
+            </div>
+         </div>
+         <button type="button" class="btn btn-st-fol btn-sm">Follow</button>
+      </div>
+      <div class="other-suggest">
+         <a href="#" class="view-suggest">View Other Suggest</a>
+      </div>
+   </div>
+</div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>	
+  <!-- Modal -->
+  <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="searchModalLabel">Let's Search What You Need</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-outline-success" type="button">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+	
+</body>
+
+</html>

@@ -1,0 +1,839 @@
+<!-- layout.html -->
+<!DOCTYPE html>
+<!--[if lt IE 7]>      
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> 
+<![endif]-->
+<!--[if IE 7]>         
+<html class="no-js lt-ie9 lt-ie8" lang=""> 
+<![endif]-->
+<!--[if IE 8]>         
+<html class="no-js lt-ie9" lang=""> 
+<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Member Area</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="./assets/img/favicon/fav.ico">
+	<link rel="stylesheet" href="./assets/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./assets/css/jquery.circliful.css">
+	<link rel="stylesheet" href="./assets/css/emojionearea.min.css">
+	<link rel="stylesheet" href="./assets/css/jquery.fileupload.css">
+	<link href="./assets/css/style.min.css" rel="stylesheet">
+
+	<script src="./assets/js/jquery-3.2.1.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="//cdn.ckeditor.com/4.10.0/full/ckeditor.js"></script>
+	<script "type=text/html" src="./assets/js/vendor.js"></script>
+	<script src="./assets/js/custom.js"></script>
+	<script src="./assets/js/emojionearea.min.js"></script>	
+	<script src="./assets/js/function.js"></script>
+	<!-- <script src="./assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script> -->
+</head>
+
+<body>
+	<!--[if lt IE 8]>
+			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+	
+
+<div class="wrapper">
+	<!-- Sidebar Holder -->
+	<nav id="sidebar">
+   <div class="sidebar-header">
+     <figure class="sidebar-logo">
+        <img src="./assets/img/logo-bar.png" alt="" class="img-fluid sidebar-img-logo">
+     </figure>
+   </div>
+   <div class="side-profile-box">
+      <div class="side-avatar-box">
+         <img src="./assets/img/1d.png" alt="" class="img-fluid img-ava">
+         <div class="online-stat"></div>
+      </div>
+      <div class="side-username">Norman Ramadhan</div>
+      <div class="side-status-box">
+         <div class="side-stat">USER</div>
+         <div class="verf-box">
+            <img src="./assets/img/reward.png" alt="" class="img-fluid img-verf">
+         </div>
+      </div>
+   </div>
+   <div class="fol-stat-box">
+      <div class="fol-stat-unit-box">
+         <div class="fol-stat-unit-1">996</div>
+         <div class="fol-stat-unit-2">Following</div>
+      </div>
+      <div class="fol-stat-unit-box">
+         <div class="fol-stat-unit-1">5.1 K</div>
+         <div class="fol-stat-unit-2">Followers</div>
+      </div>
+      <div class="fol-stat-unit-box">
+         <div class="fol-stat-unit-1">6</div>
+         <div class="fol-stat-unit-2">Post</div>
+      </div>
+   </div>
+   <div class="top-side-notif-box">
+      <div class="ico-notif-item">
+         <a class="notif-link" href="#">
+            <img src="./assets/img/friend+notif.png" alt="" class="img-fluid ico-not">
+         </a>
+         <div class="notif-side-link">2</div>
+      </div>
+      <div class="ico-notif-item">
+         <a class="notif-link" href="#">
+            <img src="./assets/img/2.png" alt="" class="img-fluid ico-not">
+         </a>
+         <div class="notif-side-link">2</div>
+      </div>
+      <div class="ico-notif-item">
+         <a class="notif-link" href="#">
+            <img src="./assets/img/3.png" alt="" class="img-fluid ico-not">
+         </a>
+         <div class="notif-side-link">2</div>
+      </div>
+      <div class="ico-notif-item">
+         <a class="notif-link" href="#">
+            <img src="./assets/img/4.png" alt="" class="img-fluid ico-not">
+         </a>
+         <div class="notif-side-link">2</div>
+      </div>
+   </div>
+   <div class="activity-status-box">
+      <div class="act-stat-item">
+         <div class="act-stat-1">Receive
+            <span class="bold">123.456 USD</span>
+         </div>
+         <div class="act-stat-2">From @Rofiqoh</div>
+      </div>
+      <div class="act-stat-item">
+         <div class="act-stat-1">Last Login</div>
+         <div class="act-stat-2">Dec 12, 2017</div>
+      </div>
+      <div class="act-stat-item">
+         <div class="act-stat-b1">Balance</div>
+         <div class="act-stat-b2">987 USD</div>
+      </div>
+      <div class="act-stat-item">
+         <div class="act-stat-b1">Total Income</div>
+         <div class="act-stat-b2">213456 USD</div>
+      </div>
+      <hr class="hr-aside">
+   </div>
+   <div class="group-box">
+      <div class="gr-title">Group</div>
+      <div class="group-unit-wraper">
+         <div class="group-unit active">
+            <a class="group-link active" href="#">
+               <i class="fa fa-users" aria-hidden="true"></i>
+            </a>
+            <div class="group-notif">2</div>
+            <a href="group-page.html" class="group-name">Republik Trader</a>
+         </div>
+         <div class="group-unit">
+            <a class="group-link" href="#">
+               <i class="fa fa-users" aria-hidden="true"></i>
+            </a>
+            <div class="group-notif">2</div>
+            <a href="group-page.html" class="group-name">Republik Trader</a>
+         </div>
+         <div class="group-unit">
+            <a class="group-link" href="#">
+               <i class="fa fa-users" aria-hidden="true"></i>
+            </a>
+            <div class="group-notif">2</div>
+            <a href="group-page.html" class="group-name">Republik Trader</a>
+         </div>
+      </div>
+      <div class="see-more">
+         <a href="group.html" class="see-link">See More</a>
+      </div>
+      <hr class="hr-aside">
+   </div>
+
+   <ul class="list-unstyled components">      
+      <li class="active">         
+         <a class="side-nav-unit" href="#">
+            <div class="side-nav-item">
+               <span class="s-de-nav-link">Pages</span>
+            </div>
+            <div class="side-nav-ico active">
+               <img src="./assets/img/clicked-page.png" alt="" class="img-fluid img-sn-ico">
+            </div>
+         </a>
+      </li>
+      <li>
+         <a class="side-nav-unit" href="createpage.html">
+            <div class="side-nav-item">
+               <span class="s-de-nav-link">Create Pages</span>
+            </div>
+            <div class="side-nav-ico">
+               <img src="./assets/img/clicked-page.png" alt="" class="img-fluid img-sn-ico">
+            </div>
+         </a>
+      </li>
+      <li>
+         <a class="side-nav-unit" href="forexbroker.html">
+            <div class="side-nav-item">
+               <span class="s-de-nav-link">Forex Broker</span>
+            </div>
+            <div class="side-nav-ico">
+               <img src="./assets/img/clicked-forex broker.png" alt="" class="img-fluid img-sn-ico">
+            </div>
+         </a>
+      </li>
+      <li>
+         <a class="side-nav-unit" href="competition.html">
+            <div class="side-nav-item">
+               <span class="s-de-nav-link">Competition</span>
+            </div>
+            <div class="side-nav-ico">
+               <img src="./assets/img/clicked-competition.png" alt="" class="img-fluid img-sn-ico">
+            </div>
+         </a>
+      </li>
+      <li>
+         <a class="side-nav-unit" href="expertadvisor.html">
+            <div class="side-nav-item">
+               <span class="s-de-nav-link">Expert Advisor</span>
+            </div>
+            <div class="side-nav-ico">
+               <img src="./assets/img/clicked-expert advisor.png" alt="" class="img-fluid img-sn-ico">
+            </div>
+         </a>
+      </li>
+      <li>
+         <a class="side-nav-unit" href="saved.html">
+            <div class="side-nav-item">
+               <span class="s-de-nav-link">Saved</span>
+            </div>
+            <div class="side-nav-ico">
+               <img src="./assets/img/clicked-saved.png" alt="" class="img-fluid img-sn-ico">
+            </div>
+         </a>
+      </li>
+      <li>
+         <a class="side-nav-unit" href="ads-manager.html">
+            <div class="side-nav-item">
+               <span class="s-de-nav-link">Ads Manager</span>
+            </div>
+            <div class="side-nav-ico">
+               <img src="./assets/img/clicked-ads-manager.png" alt="" class="img-fluid img-sn-ico">
+            </div>
+         </a>
+      </li>
+      <li>
+         <a class="side-nav-unit" href="promotion.html">
+            <div class="side-nav-item">
+               <span class="s-de-nav-link">Promotion</span>
+            </div>
+            <div class="side-nav-ico">
+               <img src="./assets/img/clicked-promotion.png" alt="" class="img-fluid img-sn-ico">
+            </div>
+         </a>
+      </li>
+      <li>
+         <a class="side-nav-unit" href="recommendation.html">
+            <div class="side-nav-item">
+               <span class="s-de-nav-link">Recommendation</span>
+            </div>
+            <div class="side-nav-ico">
+               <img src="./assets/img/clicked-recomendation.png" alt="" class="img-fluid img-sn-ico">
+            </div>
+         </a>
+      </li>
+      <li>
+         <a class="side-nav-unit" href="webinar.html">
+            <div class="side-nav-item">
+               <span class="s-de-nav-link">Webinar</span>
+            </div>
+            <div class="side-nav-ico">
+               <img src="./assets/img/clicked-webniar.png" alt="" class="img-fluid img-sn-ico">
+            </div>
+         </a>
+      </li>
+      <li>
+         <a class="side-nav-unit" href="event.html">
+            <div class="side-nav-item">
+               <span class="s-de-nav-link">Event</span>
+            </div>
+            <div class="side-nav-ico">
+               <img src="./assets/img/clicked-events.png" alt="" class="img-fluid img-sn-ico">
+            </div>
+         </a>
+      </li>
+      <li>
+         <a class="side-nav-unit" href="gallery-album.html">
+            <div class="side-nav-item">
+               <span class="s-de-nav-link">Gallery</span>
+            </div>
+            <div class="side-nav-ico">
+               <img src="./assets/img/clicked-gallery.png" alt="" class="img-fluid img-sn-ico">
+            </div>
+         </a>
+      </li>
+      <li>
+         <a class="side-nav-unit" href="tutorial.html">
+            <div class="side-nav-item">
+               <span class="s-de-nav-link">Tutorial</span>
+            </div>
+            <div class="side-nav-ico">
+               <img src="./assets/img/clicked-tutorial.png" alt="" class="img-fluid img-sn-ico">
+            </div>
+         </a>
+      </li>
+      <li>
+         <a class="side-nav-unit" href="#">
+            <div class="side-nav-item">
+               <span class="s-de-nav-link">Shop</span>
+            </div>
+            <div class="side-nav-ico">
+               <img src="./assets/img/clicked-shop.png" alt="" class="img-fluid img-sn-ico">
+            </div>
+         </a>
+      </li>      
+   </ul>
+   <div class="bot-nav-box">
+      <ul class="ul-bot-nav">
+         <li class="li-bot-nav">
+            <a href="privacy.html" class="bot-nav-link">Privacy</a>
+         </li>
+         <li class="li-bot-nav">
+            <a href="terms.html" class="bot-nav-link">Term &amp; Condition</a>
+         </li>
+         <li class="li-bot-nav">
+            <a href="advertising.html" class="bot-nav-link">Advertising</a>
+         </li>
+      </ul>
+      <div class="bot-copy">Traderstation &copy; 2017</div>
+   </div>
+</nav>
+
+
+	<!-- Page Content Holder -->
+	<div id="content">
+
+		<header>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+   
+         <button type="button" id="sidebarCollapse" class="navbar-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+         </button>
+         <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-user-circle" aria-hidden="true"></i>
+         </button>
+   
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav nav-ma">
+               <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="transactional.html">Transactional History</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="financial.html">Financial Operation</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Meta Data Trading</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Change Password</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">User Information</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#" data-toggle="modal" data-target="#searchModal">
+                     <i class="fa fa-search" aria-hidden="true"></i>
+                  </a>                  
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                     aria-expanded="false">
+                     <figure class="nav-ava-wraper">
+                        <img src="./assets/img/pp.png" alt="" class="img-nav img-fluid">
+                     </figure>
+                  </a>
+                  <div class="dropdown-menu dm-profile" aria-labelledby="navbarDropdown">
+                     <a class="dropdown-item dm-nav-ico" href="profile.html">Profile</a>
+                     <a class="dropdown-item dm-nav-ico" href="shop.html">Shop</a>
+                     <a class="dropdown-item dm-nav-ico" href="competition.html">Competition</a>
+                     <a class="dropdown-item dm-nav-ico" href="note.html">Note</a>
+                     <a class="dropdown-item dm-nav-ico" href="#">Sign Out</a>
+                  </div>
+               </li>         
+               <li class="nav-item dropdown">
+                  <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     <figure class="nav-ava-ico">
+                        <img src="./assets/img/pesan-btn.png" alt="" class="img-nav-ico img-fluid">
+                        <span class="notif-num">3</span>
+                     </figure>
+                  </a>
+                  <div class="dropdown-menu dm-message" aria-labelledby="navbarDropdown">
+                     <a class="dropdown-item dm-nav-ico" href="#">You Have 1 Message From John Doe</a>                     
+                     <a class="dropdown-item dm-nav-ico" href="#">You Have 1 Message From John Doe</a>
+                     <a class="dropdown-item dm-nav-ico" href="#">You Have 1 Message From John Doe</a>
+                  </div>
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     <figure class="nav-ava-ico">
+                        <img src="./assets/img/notifikasi-btn.png" alt="" class="img-nav-ico img-fluid">
+                        <span class="notif-num">3</span>
+                     </figure>
+                  </a>
+                  <div class="dropdown-menu dm-notif" aria-labelledby="navbarDropdown">
+                     <a class="dropdown-item dm-nav-ico" href="notification.html">You Invited To Group Republik Trader</a>
+                     <a class="dropdown-item dm-nav-ico" href="notification.html">Jane Doe Commented on your post</a>
+                     <a class="dropdown-item dm-nav-ico" href="notification.html">Jane Doe Like your post</a>
+                  </div>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">
+                     <figure class="nav-ava-ico">
+                        <img src="./assets/img/pengaturan-btn.png" alt="" class="img-nav-ico img-fluid">
+                     </figure>
+                  </a>
+               </li>
+            </ul>            
+         </div>
+      </div>
+   </nav>
+</header>
+		<div class="container-fluid">
+			<div class="body-member-area">
+				<div class="row">
+					<div class="col-lg-9">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="wallet-box">
+									<div class="wallet-head">
+										<h4 class="finance-title">Transaction History</h4>
+										<hr class="hr-finance">
+										<div class="row align-items-center">
+											<div class="col-md-6">
+												<div class="wallet-form">
+													<div class="circle-flex-rebate">
+														<div class="circle-one-rb">
+															<div class="ava-box-one">Available Rebate</div>
+															<div class="ava-num">
+																<span class="ava-num-one">1240.90</span> USD</div>
+														</div>
+														<div class="circle-two-rb">
+															<div class="ava-box-two">Available Rebate</div>
+															<div class="ava-num">
+																<span class="ava-num-two">1240.90</span> USD</div>
+														</div>
+														<div class="circle-three-rb">
+															<div class="ava-box-three">Available Rebate</div>
+															<div class="ava-num">
+																<span class="ava-num-three">1240.90</span> USD</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div class="circle-four-rb">
+													<div class="ava-box-four">Available Rebate</div>
+													<div class="ava-num-four">
+														<span class="ava-num-four">1240.90</span> USD</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="tf-history-box">
+									<div class="tf-head">
+										<h4 class="finance-title">Transaction History</h4>
+									</div>
+									<div class="tf-body">
+										<form>
+											<div class="row">
+												<div class="col-md-4">
+													<div class="form-check">
+														<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+														<label class="form-check-label" for="defaultCheck1">
+															Dynamic Period
+														</label>
+													</div>
+													<div class="form-group">
+														<select class="form-control" id="exampleFormControlSelect1">
+															<option>All</option>
+															<option>All</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-md-4">
+													<div class="form-check">
+														<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+														<label class="form-check-label" for="defaultCheck1">
+															Select Period
+														</label>
+													</div>
+													<div class="form-group">
+														<input type="date" class="form-control" id="period-date">
+													</div>
+												</div>
+												<div class="col-md-4">
+													<div class="form-check label-period">
+														<label class="form-check-label" for="period-date-to">
+															To
+														</label>
+													</div>
+													<div class="form-group">
+														<input type="date" class="form-control" id="period-date-to">
+													</div>
+												</div>
+											</div>
+										</form>
+										<div class="row">
+											<div class="col-md-5">
+												<div class="input-group mb-3">
+													<input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+													<div class="input-group-append">
+														<button class="btn btn-outline-secondary" type="button">
+															<i class="fa fa-search" aria-hidden="true"></i>
+														</button>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-5">
+												<div class="input-group mb-3">
+													<div class="input-group-prepend">
+														<label class="input-group-text" for="inputGroupSelect01">Type of Transaction</label>
+													</div>
+													<select class="form-control" id="inputGroupSelect01">
+														<option selected>All</option>
+														<option value="1">All</option>
+													</select>
+												</div>
+											</div>
+										</div>
+										<div class="table-responsive">
+											<table class="table table-bordered">
+												<thead>
+													<tr>
+														<th class="th-tab-history" scope="col">Transaction ID</th>
+														<th class="th-tab-history" scope="col">Date Time</th>
+														<th class="th-tab-history" scope="col">Type of Transaction</th>
+														<th class="th-tab-history" scope="col">Description</th>
+														<th class="th-tab-history" scope="col">Amount</th>
+														<th class="th-tab-history" scope="col">Balance</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<th class="text-center" scope="row">&nbsp;</th>
+														<td class="text-center">&nbsp;</td>
+														<td class="text-center">&nbsp;</td>
+														<td class="text-center">&nbsp;</td>
+														<td class="text-center">&nbsp;</td>
+														<td class="text-center">&nbsp;</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+										<div class="row">
+											<div class="col-md-4">
+												<div class="trans-list-link">
+													<a href="#" class="trans-link">Start Balance</a>
+													<a href="#" class="trans-link">Deposit Amount</a>
+													<a href="#" class="trans-link">Income Amount</a>
+													<a href="#" class="trans-link">Withdraw Amount</a>
+												</div>
+											</div>
+										</div>
+										<div class="row justify-content-between">
+											<div class="col-md-5">
+												<div class="input-group mb-3">
+													<div class="input-group-prepend">
+														<label class="input-group-text" for="inputGroupSelect01">Show</label>
+													</div>
+													<select class="form-control" id="inputGroupSelect01">
+														<option selected>10</option>
+														<option value="1">15</option>
+														<option value="2">20</option>
+														<option value="3">25</option>
+													</select>
+													<div class="input-group-prepend">
+														<label class="input-group-text" for="inputGroupSelect01">Enteries</label>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-5">
+												<nav aria-label="Page navigation example">
+													<ul class="pagination justify-content-end">
+														<li class="page-item disabled">
+															<a class="page-link page-prev" href="#" tabindex="-1">Previous</a>
+														</li>
+														<li class="page-item">
+															<a class="page-link pagi-item active" href="#">1</a>
+														</li>
+														<li class="page-item">
+															<a class="page-link pagi-item" href="#">2</a>
+														</li>
+														<li class="page-item">
+															<a class="page-link pagi-item" href="#">3</a>
+														</li>
+														<li class="page-item">
+															<a class="page-link page-next" href="#">Next</a>
+														</li>
+													</ul>
+												</nav>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="trading-performance-container">
+   <div class="trading-performance-box">
+      <div class="tf-head-box">
+         <h6 class="tf-title">TRADING
+            <span class="tf-col">PERFORMANCE</span>
+         </h6>
+      </div>
+      <div class="tf-body">
+         <div class="tf-acc-wraper">
+            <div class="tf-acc-type">Primary Account</div>
+            <div class="tf-type-acc-wraper">
+               <div class="num-tf-acc">- 312415 [Real Account]</div>
+               <ul class="ul-tf">
+                  <li class="li-tf">
+                     <div class="li-tf-item">Copier</div>
+                     <div class="li-tf-item">
+                        <span class="tf-bold">6</span>
+                     </div>
+                  </li>
+                  <li class="li-tf">
+                     <div class="li-tf-item">Reverser</div>
+                     <div class="li-tf-item">
+                        <span class="tf-bold">6</span>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <hr class="hr-tf">
+         <div class="tf-acc-wraper">
+            <div class="tf-acc-type">Other Account</div>
+            <div class="tf-type-acc-wraper">
+               <div class="num-tf-acc">- 312415 [Demo Account]</div>
+               <ul class="ul-tf">
+                  <li class="li-tf">
+                     <div class="li-tf-item">Copier</div>
+                     <div class="li-tf-item">
+                        <span class="tf-bold">6</span>
+                     </div>
+                  </li>
+                  <li class="li-tf">
+                     <div class="li-tf-item">Reverser</div>
+                     <div class="li-tf-item">
+                        <span class="tf-bold">6</span>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+            <div class="tf-type-acc-wraper">
+               <div class="num-tf-acc">- 312415 [Demo Account]</div>
+               <ul class="ul-tf">
+                  <li class="li-tf">
+                     <div class="li-tf-item">Copier</div>
+                     <div class="li-tf-item">
+                        <span class="tf-bold">6</span>
+                     </div>
+                  </li>
+                  <li class="li-tf">
+                     <div class="li-tf-item">Reverser</div>
+                     <div class="li-tf-item">
+                        <span class="tf-bold">6</span>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <div class="tf-type-acc-wraper">
+            <div class="num-tf-acc">- 312415 [Demo Account]</div>
+            <ul class="ul-tf">
+               <li class="li-tf">
+                  <div class="li-tf-item">Copier</div>
+                  <div class="li-tf-item">
+                     <span class="tf-bold">6</span>
+                  </div>
+               </li>
+               <li class="li-tf">
+                  <div class="li-tf-item">Reverser</div>
+                  <div class="li-tf-item">
+                     <span class="tf-bold">6</span>
+                  </div>
+               </li>
+            </ul>
+         </div>
+      </div>
+      <div class="tf-footer">
+         <div class="tf-link-footer-wraper">
+            <a href="#" class="tf-link">See More</a>
+            <a href="add-trading-account.html" class="tf-link">Add More Account</a>
+         </div>
+      </div>
+   </div>
+   <div class="trading-performance-box">
+      <div class="tf-head-box">
+         <h6 class="tf-title">PAMM
+            <span class="tf-col">PERFORMANCE</span>
+         </h6>
+      </div>
+      <div class="tf-body">
+         <div class="tf-acc-wraper">
+            <div class="tf-acc-type">Super Profit</div>
+            <div class="tf-type-acc-wraper">
+               <ul class="ul-tf">
+                  <li class="li-tf">
+                     <div class="li-tf-item">Investor</div>
+                     <div class="li-tf-item">
+                        <span class="tf-bold">6</span>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="tf-footer">
+         <div class="tf-link-footer-wraper">
+            <a href="#" class="tf-link">See More</a>
+            <a href="add-pamm-acc.html" class="tf-link">Add More Account</a>
+         </div>
+      </div>
+   </div>
+   <div class="trading-performance-box">
+      <div class="tf-head-box">
+         <h6 class="tf-title">EXPERT ADIVISOR
+            <span class="tf-col">PERFORMANCE</span>
+         </h6>
+      </div>
+      <div class="tf-body">
+         <div class="tf-acc-wraper">
+            <div class="tf-type-acc-wraper">
+               <ul class="ul-tf">
+                  <li class="li-tf">
+                     <div class="li-tf-item">No Data</div>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="tf-footer">
+         <div class="tf-link-footer-wraper">
+            <a href="add-ea.html" class="tf-link">Add Other Expert</a>
+         </div>
+      </div>
+   </div>
+   <div class="trading-performance-box">
+      <div class="tf-head-box">
+         <h6 class="tf-title">FOLLOW
+            <span class="tf-col">TRADING</span>
+         </h6>
+      </div>
+      <div class="tf-body">
+         <div class="tf-acc-wraper">
+            <div class="tf-acc-type">Copy Trade</div>
+            <div class="tf-type-acc-wraper">
+               <div class="num-tf-acc">- 312415</div>
+               <ul class="ul-tf">
+                  <li class="li-tf">
+                     <div class="li-tf-item">Profit</div>
+                     <div class="li-tf-item">
+                        <span class="tf-bold">123.123 USD</span>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="tf-footer">
+         <div class="tf-link-footer-wraper">
+            <a href="#" class="tf-link">See More</a>
+            <a href="#" class="tf-link">Copy Other Traders</a>
+         </div>
+      </div>
+   </div>
+   <div class="trading-performance-box">
+      <div class="tf-head-box">
+         <h6 class="tf-title">PAMM
+            <span class="tf-col">INVESTMENT</span>
+         </h6>
+      </div>
+      <div class="tf-body">
+         <div class="tf-acc-wraper">
+            <div class="tf-acc-type">Mega Project</div>
+            <div class="tf-type-acc-wraper">
+               <div class="num-tf-acc">- 312415</div>
+               <ul class="ul-tf">
+                  <li class="li-tf">
+                     <div class="li-tf-item">Profit</div>
+                     <div class="li-tf-item">
+                        <span class="tf-bold">123.123 USD</span>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="tf-footer">
+         <div class="tf-link-footer-wraper">
+            <a href="#" class="tf-link">See More</a>
+            <a href="#" class="tf-link">Copy Other Traders</a>
+         </div>
+      </div>
+   </div>
+</div>
+
+					</div>					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="searchModalLabel">Let's Search What You Need</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="input-group mb-3">
+					<input type="text" class="form-control" aria-describedby="basic-addon2">
+					<div class="input-group-append">
+						<button class="btn btn-outline-success" type="button">
+							<i class="fa fa-search" aria-hidden="true"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+	
+</body>
+
+</html>
